@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 Christians Martínez Alvarado
+  ~
+  ~ Licensed under the GNU General Public License v3
+  ~
+  ~ This is free software: you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  -->
+
+<resources>
+    <!-- WIDGETS STYLES -->
+    <style name="MaterialButtonStyle" parent="Widget.Material3.Button">
+        <item name="iconGravity">textStart</item>
+        <item name="android:paddingTop">@dimen/button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:transitionName">@string/transition_toolbar</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="popupTheme">?toolbarPopupTheme</item>
+        <item name="titleMarginStart">16dp</item>
+    </style>
+
+    <style name="CollapsingToolbarLargeStyle" parent="Widget.Material3.CollapsingToolbar.Large">
+        <item name="expandedTitleMarginBottom">24dp</item>
+        <item name="expandedTitleMarginEnd">24dp</item>
+        <item name="expandedTitleMarginStart">24dp</item>
+        <item name="expandedTitleTextAppearance">?textAppearanceHeadline4</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.Material3.BottomNavigationView"/>
+
+    <style name="ToolCardViewStyle" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/m3_card_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Circular" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

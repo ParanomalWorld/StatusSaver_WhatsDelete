@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 Christians Martínez Alvarado
+  ~
+  ~ Licensed under the GNU General Public License v3
+  ~
+  ~ This is free software: you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  -->
+
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:font="@font/manrope_extralight"
+        app:fontWeight="200" />
+    <font
+        app:font="@font/manrope_light"
+        app:fontWeight="300" />
+    <font
+        app:font="@font/manrope_regular"
+        app:fontWeight="400" />
+    <font
+        app:font="@font/manrope_medium"
+        app:fontWeight="500" />
+    <font
+        app:font="@font/manrope_semibold"
+        app:fontWeight="600" />
+    <font
+        app:font="@font/manrope_bold"
+        app:fontWeight="700" />
+    <font
+        app:font="@font/manrope_extrabold"
+        app:fontWeight="800" />
+</font-family>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 Christians Martínez Alvarado
+  ~
+  ~ Licensed under the GNU General Public License v3
+  ~
+  ~ This is free software: you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  -->
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.divineengine.statussaver.fragments.HomeSectionFragment"
+        android:label="HomeFragment"/>
+
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.divineengine.statussaver.fragments.SavedSectionFragment"
+        android:label="SavedFragment"/>
+
+    <fragment
+        android:id="@+id/toolsFragment"
+        android:name="com.divineengine.statussaver.fragments.ToolFragment"
+        android:label="ToolsFragment"/>
+
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.divineengine.statussaver.fragments.message.MessageFragment"
+        android:label="MessageFragment"/>
+
+    <fragment
+        android:id="@+id/conversationsFragment"
+        android:name="com.divineengine.statussaver.fragments.messageview.ConversationListFragment"
+        android:label="ConversationListFragment"/>
+
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.divineengine.statussaver.fragments.messageview.ConversationDetailFragment"
+        android:label="ConversationDetailFragment">
+        <argument
+            android:name="extra_conversation"
+            app:argType="com.divineengine.statussaver.database.Conversation"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/messageViewTermsFragment"
+        android:name="com.divineengine.statussaver.fragments.messageview.MessageViewTermsFragment"
+        android:label="MessageViewTerms"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.divineengine.statussaver.fragments.SettingsFragment"
+        android:label="SettingsFragment"/>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.divineengine.statussaver.fragments.AboutFragment"
+        android:label="AboutFragment"/>
+
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="com.divineengine.statussaver.fragments.onboard.OnboardFragment"
+        android:label="OnboardFragment">
+        <argument
+            android:name="isFromSettings"
+            app:argType="boolean"
+            android:defaultValue="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/playbackFragment"
+        android:name="com.divineengine.statussaver.fragments.playback.PlaybackFragment"
+        android:label="PlaybackFragment">
+        <argument
+            android:name="statuses"
+            app:argType="com.divineengine.statussaver.model.Status[]" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+</navigation>

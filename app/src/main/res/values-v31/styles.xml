@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2023 Christians Martínez Alvarado
+  ~
+  ~ Licensed under the GNU General Public License v3
+  ~
+  ~ This is free software: you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  -->
+
+<resources>
+    <style name="Base.Theme.WhatSave.DynamicColors" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="defaultIconColor">@color/icon_tint_color</item>
+        <item name="defaultIconBackgroundColor">@color/icon_background_color</item>
+        <item name="rectSelector">@drawable/rect_selector</item>
+        <item name="roundSelector">@drawable/round_selector</item>
+        <item name="popupMenuBackground">@drawable/popupmenu_background</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_24dp</item>
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.WhatSave.Adaptive</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="bottomNavigationStyle">@style/BottomNavigationStyle</item>
+        <item name="materialButtonStyle">@style/MaterialButtonStyle</item>
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="preferenceCategoryStyle">@style/MaterialPreferenceCategory</item>
+        <item name="collapsingToolbarLayoutLargeStyle">@style/CollapsingToolbarLargeStyle</item>
+    </style>
+
+    <style name="Theme.WhatSave" parent="Base.Theme.WhatSave.DynamicColors"/>
+
+    <style name="Theme.WhatSave.Black">
+        <item name="colorSurface">@color/blackSurfaceColor</item>
+        <item name="android:windowBackground">@color/blackSurfaceColor</item>
+        <item name="elevationOverlayAccentColor">@color/blackSurfaceColor</item>
+        <item name="dividerColor">@color/blackDividerColor</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme.Black</item>
+        <item name="materialAlertDialogTheme">@style/MaterialAlertDialogTheme.Black</item>
+    </style>
+
+    <style name="Theme.WhatSave.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+    </style>
+
+    <style name="ThemeOverlay.WhatSave.Adaptive" parent="ThemeOverlay.Material3.Light"/>
+</resources>

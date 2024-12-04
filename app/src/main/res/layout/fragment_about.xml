@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2024 Christians Martínez Alvarado
+  ~
+  ~ Licensed under the GNU General Public License v3
+  ~
+  ~ This is free software: you can redistribute it and/or modify it under
+  ~ the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            style="?collapsingToolbarLayoutLargeStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?collapsingToolbarLayoutLargeSize"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="pin"
+                app:navigationIcon="?homeAsUpIndicator"
+                tools:title="@string/about_title"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.divineengine.statussaver.views.InsetsNestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="@integer/overScrollMode"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.divineengine.statussaver.views.ListItemView
+                android:id="@+id/app_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:listItemIcon="@drawable/ic_info_24dp"
+                app:listItemTitle="@string/app_name"
+                tools:listItemSummary="@tools:sample/lorem"/>
+
+
+
+            <com.divineengine.statussaver.views.ListItemView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:listItemIcon="@drawable/ic_mail_24dp"
+                app:listItemTitle="@string/contact_title"
+                app:listItemSummary="@string/contact_summary"/>
+
+            <com.divineengine.statussaver.views.ListItemView
+                android:id="@+id/latest_release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:listItemIcon="@drawable/ic_new_releases_24dp"
+                app:listItemTitle="@string/latest_release_title"
+                app:listItemSummary="@string/latest_release_summary"/>
+
+            <com.divineengine.statussaver.views.ListItemView
+                android:id="@+id/fork_on_github"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:listItemIcon="@drawable/ic_github_circle_24dp"
+                app:listItemTitle="@string/fork_on_github_title"
+                app:listItemSummary="@string/fork_on_github_summary"/>
+
+            <com.divineengine.statussaver.views.ListItemView
+                android:id="@+id/legal_notices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:listItemIcon="@drawable/ic_description_24dp"
+                app:listItemTitle="@string/oss_licenses_title"
+                app:listItemSummary="@string/oss_licenses_summary"/>
+
+        </LinearLayout>
+
+    </com.divineengine.statussaver.views.InsetsNestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
