@@ -1,6 +1,6 @@
 <div align="center">
 
-# WhatSave
+# Satus Saver - WhatsDelete
 
 ### An application that helps you save Whatsapp & Business statuses in the easiest way.
 
@@ -8,9 +8,7 @@ English
 &nbsp;&nbsp;|&nbsp;&nbsp;
 [Español](README-es.md)
 
-[![GitHub Releases](https://img.shields.io/github/v/release/mardous/WhatSave?label=GitHub%20Releases&logo=github)](https://github.com/mardous/WhatSave/releases/latest)
-[![F-Droid version](https://img.shields.io/f-droid/v/com.simplified.wsstatussaver?label=F-Droid&logo=fdroid)](https://f-droid.org/packages/com.simplified.wsstatussaver/)
-[![Platform](https://img.shields.io/badge/Platform-Android-green.svg?logo=android)](https://github.com/mardous/WhatSave)
+
 [![License](https://img.shields.io/github/license/mardous/WhatSave?color=blue&label=License)](https://github.com/mardous/WhatSave/blob/master/LICENSE.md)
 [![Code of Conduct](https://img.shields.io/badge/Contributor_Covenant-2.1-4baaaa.svg)](https://github.com/mardous/WhatSave/blob/master/CODE_OF_CONDUCT.md)
 </div>
@@ -40,15 +38,11 @@ English
 * No watermark
 * It's free!
 
-## ⬇️ Download
-You can download WhatSave from [F-Droid](https://f-droid.org/packages/com.simplified.wsstatussaver) or from [GitHub Releases](https://github.com/mardous/WhatSave/releases/latest).
+
 
 ## 🤝 Contributing
 If you are interested in contributing to this project, thank you! You can read the [CONTRIBUTING](CONTRIBUTING.md) file for details.
 
-[Translations for this app](https://hosted.weblate.org/projects/whatsave/) are made possible by [Hosted Weblate](https://hosted.weblate.org/about/).
-
-[![Translation status](https://hosted.weblate.org/widget/whatsave/multi-green.svg)](https://hosted.weblate.org/engage/whatsave/)
 
 ## 🔏 Privacy and Terms
 Please see the [PRIVACY](PRIVACY.md) file to learn more about our Privacy Policy and Terms of Use.
