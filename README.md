@@ -1,16 +1,10 @@
 <div align="center">
 
-# Satus Saver - WhatsDelete
+# Status Saver - WhatsDelete App
 
 ### An application that helps you save Whatsapp & Business statuses in the easiest way.
 
-English
-&nbsp;&nbsp;|&nbsp;&nbsp;
-[Español](README-es.md)
-
-
-[![License](https://img.shields.io/github/license/mardous/WhatSave?color=blue&label=License)](https://github.com/mardous/WhatSave/blob/master/LICENSE.md)
-[![Code of Conduct](https://img.shields.io/badge/Contributor_Covenant-2.1-4baaaa.svg)](https://github.com/mardous/WhatSave/blob/master/CODE_OF_CONDUCT.md)
+Eng
 </div>
 
 ## 📱 Screenshots
@@ -34,9 +28,7 @@ English
 * Recover deleted messages
 * Night mode
 * Black theme
-* No ADs
-* No watermark
-* It's free!
+
 
 
 
@@ -45,7 +37,7 @@ If you are interested in contributing to this project, thank you! You can read t
 
 
 ## 🔏 Privacy and Terms
-Please see the [PRIVACY](PRIVACY.md) file to learn more about our Privacy Policy and Terms of Use.
+Please see the [PRIVACY](https://sites.google.com/view/satus-saver-whatsdelete/home) file to learn more about our Privacy Policy and Terms of Use.
 
 ## ⚖️ License details
 WhatSave is licensed under the [GNU General Public License, Version 3.0](LICENSE.md). Any fork of
