@@ -14,8 +14,7 @@ Eng
 <img src="metadata/en-US/images/phoneScreenshots/1.jpg" width="30%" />
 <img src="metadata/en-US/images/phoneScreenshots/2.jpg" width="30%" />
 <img src="metadata/en-US/images/phoneScreenshots/3.jpg" width="30%" />
-<img src="metadata/en-US/images/phoneScreenshots/4.jpg" width="30%" />
-<img src="metadata/en-US/images/phoneScreenshots/5.jpg" width="30%" />
+
 </div>
 </div>
 
