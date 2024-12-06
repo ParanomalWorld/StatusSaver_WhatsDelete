@@ -5,17 +5,7 @@
 ### An application that helps you save Whatsapp & Business statuses in the easiest way.
 
 Eng
-</div>
 
-## 📱 Screenshots
-
-<div align="center">
-<div>
-<img src="metadata/en-US/images/phoneScreenshots/1.jpg" width="30%" />
-<img src="metadata/en-US/images/phoneScreenshots/2.jpg" width="30%" />
-<img src="metadata/en-US/images/phoneScreenshots/3.jpg" width="30%" />
-
-</div>
 </div>
 
 ## 📃 Features:
